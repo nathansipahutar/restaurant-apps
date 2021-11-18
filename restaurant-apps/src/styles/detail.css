@@ -1,0 +1,145 @@
+.resto__heading{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.resto__title{
+    color: #f57b2b;
+    font-size: x-large;
+    margin-top: 20px;
+}
+
+.resto__poster{
+    width: 500px;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+
+.resto__info{
+    border: 3px solid #f57b2b;
+    border-radius: 15px;
+    padding: 40px;
+    line-height: 30px;
+}
+.resto__info__heading{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: larger;
+    color: #f57b2b;
+}
+.resto__overview{
+    line-height: 30px;
+    width: 280px;
+}
+.resto__menus{
+    line-height: 30px;
+    width: 280px;
+}
+.resto__reviews{
+    line-height: 30px;
+    width: 280px;
+}
+.resto__reviews > h4{
+    margin-bottom: 10px;
+}
+.restoInfoList{
+    border: 2px solid #f57b2b;
+    margin-bottom: 10px;
+    width: 280px;
+}
+
+@media screen and (min-width: 650px) {
+    .resto__heading {
+        flex-direction: row;
+    }
+    .resto__poster{
+        width: 350px;
+    }
+    .resto__overview{
+        width: 500px;
+    }
+    .resto__menus{
+        width: 500px;
+    }
+    .resto__reviews{
+        width: 500px;
+    }
+    .restoInfoList{
+        width: 500px;
+    }
+  }
+
+  @media screen and (min-width: 850px) {
+    .resto__poster{
+        width: 450px;
+    }
+    .resto__overview{
+        width: 700px;
+        margin-left: 20px;
+    }
+    .resto__menus{
+        width: 700px;
+        margin-left: 20px;
+    }
+    .resto__reviews{
+        width: 700px;
+        margin-left: 20px;
+    }
+    .restoInfoList{
+        width: 700px;
+    }
+  }
+
+  @media screen and (min-width: 1080px) {
+      #restoCard h3{
+        margin-left: 50px;
+      }
+    .resto__heading{
+        margin-left: 50px;
+    }
+    .resto__poster{
+        width: 600px;
+    }
+    .resto__overview{
+        width: 800px;
+        margin-left: 50px;
+    }
+    .resto__menus{
+        width: 800px;
+        margin-left: 50px;
+    }
+    .resto__reviews{
+        width: 800px;
+        margin-left: 50px;
+    }
+    .restoInfoList{
+        width: 800px;
+    }
+  }
+
+  @media screen and (min-width: 1400px) {
+    #restoCard h3{
+      margin-left: 300px;
+    }
+  .resto__heading{
+      margin-left: 300px;
+  }
+  .resto__poster{
+      width: 600px;
+  }
+  .resto__overview{
+      width: 800px;
+      margin-left: 300px;
+  }
+  .resto__menus{
+      width: 800px;
+      margin-left: 300px;
+  }
+  .resto__reviews{
+      width: 800px;
+      margin-left: 300px;
+  }
+  .restoInfoList{
+      width: 800px;
+  }
+}
